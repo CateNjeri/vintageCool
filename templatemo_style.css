@@ -12,8 +12,9 @@ body {
 	background: #1d252e;
 }
 
-a:link, a:visited { color: #ff8400; text-decoration: underline;} 
+a:link, a:visited { color: #ff8400; text-decoration: underline;}
 a:active, a:hover { color: #ff8400; text-decoration:none;}
+
 
 h1 {
 	margin: 0px;
@@ -21,6 +22,8 @@ h1 {
 	font-size: 22px;
 	color: #ff6803;
 	font-weight: normal;
+	font-family: 'Audiowide', cursive;
+
 }
 
 h3 {
@@ -69,14 +72,14 @@ h4 {
 	clear: both;
 	width: 100%;
 	height: 1px;
-	font-size: 1px;	
+	font-size: 1px;
 }
 
 .cleaner_with_height {
 	clear: both;
 	width: 100%;
 	height: 15px;
-	font-size: 1px;	
+	font-size: 1px;
 }
 
 .input_field{
@@ -110,7 +113,7 @@ h4 {
 p {
 	text-align: justify;
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
 }
 
 #templatemo_container{
@@ -176,7 +179,7 @@ p {
 	text-align: center;
 	text-decoration: none;
 	color: #4979af;
-	border-right: 1px solid #10243a;	
+	border-right: 1px solid #10243a;
 }
 
 #templatemo_menu_section li a:hover, #templatemo_menu_section li .current{
@@ -226,7 +229,7 @@ p {
 	padding: 15px;
 	margin-right: 30px;
 	border: 1px solid #779eca;
-	background: #223e5d url(images/templatemo_box_top_right.gif) top right no-repeat;	
+	background: #223e5d url(images/templatemo_box_top_right.gif) top right no-repeat;
 }
 
 #templatemo_content_panel_1 #templatemo_section_1_1 {
@@ -234,7 +237,7 @@ p {
 	width: 558px;
 	padding: 15px;
 	border: 1px solid #779eca;
-	background: #223e5d url(images/templatemo_box_top_right.gif) top right no-repeat;	
+	background: #223e5d url(images/templatemo_box_top_right.gif) top right no-repeat;
 }
 
 #templatemo_content_panel_1 #templatemo_section_1_2 {
@@ -335,8 +338,9 @@ text-align: left;
 
 #templatemo_container #templatemo_content_panel_3{
 	width: 930px;
-	padding: 30px 0 0 30px;
+	/*padding: 30px 0 0 30px;*/
 	background: #252b31;
+	margin-right: 30px;
 }
 
 
@@ -347,12 +351,14 @@ text-align: left;
 	padding: 15px;
 	background-color: #32373c;
 	border: 1px solid #494d52;
+
 }
 
 #templatemo_content_panel_3 .templatemo_section_3 {
 	float: left;
 	width: 280px;
 	margin-right: 30px;
+
 }
 
 .templatemo_section_3 ul{
@@ -367,8 +373,36 @@ text-align: left;
 
 #templatemo_footer_panel{
 	overflow: hidden;
-	width: 900px;
-	padding: 10px 30px;
+	width: 930px;
+	/*padding: 10px 30px;*/
 	background: #060e17;
 	text-align: center;
+}
+fieldset {
+	width: 800px;
+	margin: auto;
+	border: dashed 5px red;
+	border-radius: 20%;
+	background-color: #1d1d1d;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+legend {
+	color: white;
+}
+
+body {
+	background-color: black;
+}
+
+/*	Selectors	*/
+
+#border {
+	border-style: solid;
+	background-color: black;
+	padding: 40px;
 }
