@@ -396,7 +396,7 @@ legend {
 }
 
 body {
-	background-color: black;
+	background-color: #1d252e;
 }
 
 /*	Selectors	*/
@@ -405,4 +405,68 @@ body {
 	border-style: solid;
 	background-color: black;
 	padding: 40px;
+}
+
+.before{
+	float: left;
+	margin-left: 15%;
+	margin-bottom: 8%;
+	margin-top: 8%;
+}
+.after{
+	float:right;
+	margin-right: 15%;
+	margin-bottom: 8%;
+	margin-top: 8%;
+}
+
+.xba{
+	width: 320px;
+	height: 180px;
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+
+}
+
+.iba{
+	width: 320px;
+	height: 180px;
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+}
+
+.rba{
+	width: 320px;
+	height: 180px;
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+}
+
+.xbb{
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+}
+.rbb{
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+}
+.ibb{
+	border: 3px solid #205b72;
+	margin-bottom: 20px;
+}
+.servebay{
+	width: 680px;
+	height: 180px;
+	margin-left: 15%;
+	border: 3px solid #205b72;
+	margin-bottom: 8%;
+}
+
+.heda{
+	margin-left: 15%;
+}
+
+.res{margin-top: 7%;
+	margin-left: 15%;
+	font-size: 32px;
 }
